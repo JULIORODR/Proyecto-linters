@@ -522,5 +522,13 @@
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
   },
-  "description": ""
+  "description": "<a name=\"readme-top\"></a>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCRiano/prueba1Linters1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuanCRiano/prueba1Linters1/issues"
+  },
+  "homepage": "https://github.com/JuanCRiano/prueba1Linters1#readme"
 }
