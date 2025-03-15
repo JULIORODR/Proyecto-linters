@@ -1,173 +1,58 @@
-<a name="readme-top"></a>
+ANALISIS Y DESARROLLO DE SOFTWARE
 
-<div align="center">
+📖 PROYECTO DE ESTUDIO
 
-<img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
-<br/>
-<h3><b>NEWTORK SCRIPT PROJECT</b>
-
-</div>
-
-# ✅ TABLE OF CONTENTS
-- [📖 About the Project](#about-project)
-  - [⚒️ Build With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
- - [💻 Getting Started](#getting-started)
-   - [Setup](#setup)
-   -  [Prerequisites](#prerequisites)
-   - [Install](#install)
-   - [Usage](#usage)
-   - [Run tests](#run-tests)
-   - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🕹️ Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐ Show your Support](#support)
-- [👏 Acknowledgements ](#ackknowledgements)
-- [❓ FAQ ](#faq)
-- [📃 License](#license)
-
-# 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
-
-**[Networ Script Project]** This is a first project in SENA'S   SysAdmin Network Curriculum
-
-## ⚒️ Build With <a name="built-with"></a>
-
-<p>
-This Projects was built using:
-HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
-</p>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<li> HTML </li>
-<li> MARKDOWN </li>
-<li> SHELLSCRIPT </li>
-<li> GIT </li>
-<li> GITHUB </li>
-
-<details>
-<summary> Client </summary>
-    <ul>
-    <li><a href="
-https://developer.mozilla.org/es/docs/Web/HTML
-">HTML</a></li>    
-    </ul>
-</details>
-
-<details>
-<summary>Markdown</summary>
-<ul>
-<li><a href="
-https://markdown.es/sintaxis-markdown/
-">Markdown</a></li>
-</ul>
-</details>
+Es el primer proyecto del programa de analisis y desarrollo de Software del SENA. 
 
 
-### Key Features <a name="key-features"></a>
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+⚙ Construido con
+Tecnologías Principales
+HTML - 
+JavaScript - 
+CSS - 
+Git & GitHub - 
+Webpack - 
 
-## 💻 Getting Started <a name="getting-started"></a>
+
+Herramientas
+
+Características Clave
+
+📚 Documentación Detallada: Guías técnicas en Markdown
+🔄 Control de Versiones: Flujo de trabajo con Git/GitHub
 
 
-To get a local copy up and running follow these steps:
+🚀 Comenzando
+Requisitos Previos
+Editor de código como VS Code
+Git instalado
+Cuenta en GitHub
+Configuración Inicial
 
-### Prerequsites 
 
-To run this project you need the following tools:
-
-- [VS Code]
-- [Git and GitHub]
-- [ShellScript ]
-
-### Setup
-
-Clone this respository  to your desired folder:
-
-```sh
-cd NEWTORK-SCRIPT
+Clona el repositorio:
 git clone 
-https://github.com/alyconr/Network-Shell-Script-.git
 
-```
-### Install
+# Lighthouse para auditoría de rendimiento
+npm install -g @lhci/cli@0.7.x
 
-Install This project with:
+# Webhint para análisis HTML
+npm install --save-dev hint@7.x
 
-```sh
-    ./networkScript.sh
-```
+# Stylelint para validación CSS
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
-### Usage 
+# ESLint para análisis JavaScript
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
-To run the project, execute the following command:
+# Webpack y complementos
+npm install webpack webpack-cli --save-dev
+npm install --save-dev style-loader css-loader html-loader html-webpack-plugin webpack-dev-server
 
-```sh
-./networkScript.sh
-```
+# Ejecuta todos los linters
+npx stylelint "/*.{css,scss}"
+npx hint .
+npx eslint .
 
-### Run Test
-
-To run test, run the following command or endpoint:
-
-```sh
-python -m unittest test_module.TestClass
-```
-
-
-### Deployment
-
-Deploy using your local enviroment
-
-<p align="right"><a href="#readme-top">Back to top</a></p>
-
-## 👥 Authors <a name="authors"></a>
-
-Jeysson Contreras
-
-🧑🏻‍💻 **Author 1**
-
- - GitHub: [@alyconr](
-https://github.com/alyconr
-)
- - LinkedIn: [LinkedIn](
-https://www.linkedin.com/in/jeysson-aly-contreras
-)
-
-
-## 🕹️ Future Features <a name="future-features"></a>
-
-- [ ] **[Ping]**
-- [ ] **[Nslookup]**
-- [ ] **[BandWitdth Test]**
-
-
-## 🤝 Contributing <a name="contributing"></a>
-
-
-Contributions, issues, and  feature requests are welcome!
-
-Feel free tp check the [issues page](
-https://github.com/alyconr/Network-Shell-Script-/issues
-)
-
-
-## ⭐ Show your Support
-
-Wrrite a message to encourage readers to support your project
-
-If you like this project please give one start
-
-## 👏 Acknowledgements <a name="acknowledgements"></a>
-
-I would like to thank my learning teammates  and Sena Instructor
-
-## 📃 License <a name="license"></a>
-
-This Project is [MIT](./LICENSE.md) licensed
-
-<p align="right"><a href="#readme-top">Back to top</a></p>
+Autores <a Julio Rodriguez="authors"></a>
