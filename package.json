@@ -1,22 +1,21 @@
 {
-  "name": "proyecto1linters1",
+  "name": "survey-form-sena-azure-main",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-dev": "webpack --mode=development ",
-    "build-prod": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.2"
-  },
+  "description": "",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "babel-loader": "^10.0.0",
+    "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.31.0",
@@ -32,14 +31,8 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JuanCRiano/prueba1Linters1.git"
-  },
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/JuanCRiano/prueba1Linters1/issues"
-  },
-  "homepage": "https://github.com/JuanCRiano/prueba1Linters1#readme"
+  "dependencies": {
+    "express": "^4.21.2",
+    "serve": "^14.2.4"
+  }
 }
